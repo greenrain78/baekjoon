@@ -13,6 +13,7 @@ int main()
         {
             tmp += 26;
         }
+        //all char -3
         tmp -= 3;
 
         str[i] = tmp;
