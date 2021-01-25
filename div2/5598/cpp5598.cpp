@@ -9,14 +9,12 @@ int main()
     for (size_t i = 0; i < str.length(); i++)
     {
         char tmp = str[i];
-        if (tmp > 'w')
+        if (tmp < 'D')
         {
             tmp += 26;
         }
-        else
-        {
-            tmp -= 3;
-        }
+        tmp -= 3;
+
         str[i] = tmp;
     }
     cout << str;
