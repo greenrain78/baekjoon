@@ -2,6 +2,8 @@
 
 int main()
 {
-    printf("hello world\n");
-    printf("hello world\n");
+  int num;
+  while (num % 2 == 0)
+  {
+  }
 }
