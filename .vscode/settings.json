@@ -8,7 +8,8 @@
     "python.pythonPath": "/usr/bin/python3",
     "files.associations": {
         "iostream": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "*.tcc": "cpp"
     },
     "python.formatting.provider": "yapf"
 }
